@@ -17,6 +17,6 @@ if (let != 'e' && let != 'q')
 	putchar(let);
 }
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
