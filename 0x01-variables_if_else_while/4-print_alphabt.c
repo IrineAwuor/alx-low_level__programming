@@ -12,7 +12,7 @@ char let;
 
 for (let = 'a' ; let <= 'z' ; let++)
 {
-if (let != 'e' $$ let != 'q')
+if (let != 'e' && let != 'q')
 {
 	putchar(let);
 }
