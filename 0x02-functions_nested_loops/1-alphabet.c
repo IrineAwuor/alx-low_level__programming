@@ -8,7 +8,8 @@
 void print_alphabet(void)
 {
 	char p;
-	for (p= 'a'; p <= 'z'; p++)
+
+	for (p = 'a'; p <= 'z'; p++)
 
 	{
 
