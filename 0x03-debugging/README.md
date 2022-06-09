@@ -14,7 +14,7 @@ You only need to upload 0-main.c and main.h for this task. We will provide our o
 
 You are not allowed to add or remove lines of code, you may change only one line in this task. </p>
 <br>
-* <h5> 1. Like, comment, subscribe </5>
+* <h5> 1. Like, comment, subscribe </h5>
 
 <p> Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
 
@@ -24,10 +24,10 @@ Don’t add or remove any lines of code, as we will be checking your line count.
 
 You do not have to compile with -Wall -Werror -Wextra -pedantic for this task. </p>
 <br>
-* <5> 2. 0 > 972? </5>
+* <h5> 2. 0 > 972? </h5>
 
 <p> This program prints the largest of three integers. </p>
 <br>
-* <5> 3. Leap year </5>
+* <h5> 3. Leap year </h5>
 
 <p> This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration.  </p>
