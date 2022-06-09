@@ -6,7 +6,7 @@ include "main.h"
  * Return: 0
  */
 
-int main(void
+int main(void)
 {
 int a, b, c;
 int largest;
