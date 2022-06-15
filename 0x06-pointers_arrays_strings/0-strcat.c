@@ -19,6 +19,7 @@ int _strlen(char *str)
 	return (length);
 }
 
+
 /**
  *_strcat - concatinates two strings
  *@dest:destination pointer
