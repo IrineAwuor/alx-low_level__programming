@@ -1,1 +1,2 @@
-variables if else while
+More pointers, arrays and strings
+
