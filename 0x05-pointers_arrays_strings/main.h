@@ -2,8 +2,8 @@
 #define MAIN_H
 
 /**
- * File: holberton.h
- * Auth: Gedeon Obae Gekonge
+ * File: main.h
+ * Auth: Irine Ogutu
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x05-pointers_arrays_strings directory.
  */
