@@ -1,24 +1,51 @@
+/*
+ * File: 0-strcat.c
+ * Auth: Geeon Obae Gekonge
+ */
+
+#include <stdio.h>
 #include "main.h"
 
 /**
- * _strcat - this is a function strcat
- * @dest: first parameter
- * @src: second parameter
- * Return: a string
+ *_strlen - returns the length of a string
+ *@str:a string of length to be returned
+ *Return: returns the length of a string
  */
+int _strlen(char *str)
+{
+	int length = 0;
 
+	while (*str)
+	{
+		str++;
+		length++;
+	}
+
+	return (length);
+
+}
+
+
+/**
+ *_strcat - concatinates two strings
+ *@dest:destination pointer
+ *@src:pointer to a string
+ *Return: concatinated string
+ */
 char *_strcat(char *dest, char *src)
 {
-	int l = 0, i;
+	char *cat = dest + _strlen(dest);
+	int length =  _strlen(dest) + _strlen(src);
 
-	while (dest[l])
-		l++;
-
-	for (i = 0; src[i] != '\0'; i++)
+	while (*src)
 	{
-		dest[l] = src[i];
-		l += 1;
+		*cat += *src;
+		src++;
+		cat++;
 	}
-	dest[l] = '\0';
-	return (dest);
+	*cat += '\0';
+	cat -= (length);
+	*dest = *cat;
+
+	return (cat);
 }

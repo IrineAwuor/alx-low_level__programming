@@ -1,28 +1,29 @@
 #include "main.h"
-
 /**
- * leet - function that encodes a string
- * @x: parameter
- * Return: a spring
+ * leet - encodes a string into 1337
+ * @c: String
+ * Return: string that is encoded
  */
-
-char *leet(char *x)
+char *leet(char *c)
 {
-	int a = 0, b, l = 5;
-	char tr[5] = {'A', 'E', 'O', 'T', 'L'};
-	char trw[5] = {'4', '3', '0', '7', '1'};
+	char *cp = c;
+	char key[] = {'A', 'E', 'O', 'T', 'L'};
+	int value[] = {4, 3, 0, 7, 1};
+	unsigned int i;
 
-	while (x[a])
+	while (*c)
 	{
-		b = 0;
-
-		while (b < l)
+		for (i = 0; i < sizeof(key) / sizeof(char); i++)
 		{
-			if (x[a] == tr[b] || x[a] - 32 == tr[b])
-				x[a] = trw[b];
-			b++;
+			/*32 is the difference between lower case letters and apper case letters*/
+			if (*c == key[i] || *c == key[i] + 32)
+			{
+				*c = 48 + value[i];
+			}
 		}
-		a++;
+		c++;
 	}
-	return (x);
+
+	return (cp);
+
 }
