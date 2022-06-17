@@ -1,6 +1,6 @@
 /*
  * File: 103-print_buffer.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Irine Ogutu
  */
 
 #include "main.h"
