@@ -1,6 +1,6 @@
 /*
  * File: 101-print_number.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Irine Ogutu
  */
 
 #include "main.h"
