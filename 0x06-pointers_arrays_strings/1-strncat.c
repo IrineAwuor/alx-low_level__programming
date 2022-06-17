@@ -1,6 +1,6 @@
 /*
  * File: 1-strncat.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Irine Ogutu
  */
 
 #include "main.h"
