@@ -1,6 +1,6 @@
 /*
  * File: 3-strcmp.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Irine Ogutu
  */
 
 #include "main.h"
