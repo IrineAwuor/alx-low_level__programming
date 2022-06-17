@@ -1,6 +1,6 @@
 /*
  * File: 4-rev_array.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Irine Ogutu
  */
 
 #include "main.h"
