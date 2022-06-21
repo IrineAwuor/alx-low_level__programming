@@ -1,6 +1,6 @@
 /*
  * File: 0-memset.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Irine Ogutu
  */
 
 #include "main.h"
