@@ -1,6 +1,6 @@
 /*
  * File: 1-memcpy.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Irine Ogutu
  */
 
 #include "main.h"
