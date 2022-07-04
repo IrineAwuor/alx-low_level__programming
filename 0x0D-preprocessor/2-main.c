@@ -1,19 +1,12 @@
-/*
- * File: 2-main.c
- * Auth: Gedeon Obae Gekonge
- */
-
 #include <stdio.h>
 
 /**
- * main - Prints the name of the file of the program
- *        was compiled from, followed by a new line.
+ *  main - prints the name of the file
  *
- * Return: Always 0.
+ *  Return: always 0
  */
 int main(void)
 {
-	printf("%s\n", __FILE__);
-
-	return (0);
+		printf("%s\n", __FILE__);
+		return (0);
 }

@@ -1,13 +1,6 @@
-#ifndef PI_H
-#define PI_H
-
-/*
- * File: 1-pi.h
- * Auth: Irine Ogutu
- * Desc: Header file that defines a macro named PI
- *       as an abbreviation for the token 3.14159265359.
- */
+#ifndef _PI_H_
+#define _PI_H_
 
 #define PI 3.14159265359
 
-#endif
+#endif /* _PI_H_ */
