@@ -24,7 +24,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 *A README.md file, at the root of the folder of the project, is mandatory
 
 # More Info
-n the following tasks, we are going to use  * <a href = "https://github.com/holbertonschool/0x1B.c" >these files </a>
+In the following tasks, we are going to use  * <a href = "https://github.com/holbertonschool/0x1B.c" >these files </a>. We want to compile these only.
 
 # Tasks
 
