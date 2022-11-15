@@ -1,4 +1,4 @@
-# Makefileis
+# Makefiles
 
 # Resources
 *Read or watch:
